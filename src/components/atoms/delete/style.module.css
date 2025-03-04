@@ -1,6 +1,6 @@
-.PlusButton {
+.DeleteButton {
   width:50px;
-  margin: 10px;
+  margin-left:10px;
   background-color: #4a90e2;
   color: white;
   border: none;

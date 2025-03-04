@@ -1,13 +1,22 @@
 import React from 'react';
 import styles from './style.module.css';
 
-const PlusButton: React.FC<{ onClick: () => void }> = ({ onClick }) => {
+interface PlusButtonProps {
+  onClick: () => void;
+}
+
+const PlusButton: React.FC<PlusButtonProps> = ({ onClick }) => {
   return (
-    <button className={styles.plusButton} onClick={onClick}>
-      +
+    <button 
+      onClick={() => {
+        console.log('추가 버튼 클릭');
+        onClick();
+      }} 
+      className={styles.PlusButton}
+    >
+      추가
     </button>
   );
 };
 
 export default PlusButton;
-export {};

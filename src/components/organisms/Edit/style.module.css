@@ -1,0 +1,8 @@
+.button {
+  height: 44px;
+  width:300px;
+  border-radius: 8px;
+  text-align: center;
+  border-color: azure;
+  margin-bottom: 10px;
+}

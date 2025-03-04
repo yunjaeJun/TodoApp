@@ -1,0 +1,52 @@
+.moDal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+}
+
+.ModalForm {
+    height: 400px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+.InputTotalSpace {
+    padding:20px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.InputTotal {
+    padding: 10px;
+    width: calc(50% - 20px); 
+    height: 50px; 
+    font-size: 16px; 
+    color: black;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+}
+.ButtonArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.OnlyEdit {
+    display: flex;
+    flex-direction: column;
+}
